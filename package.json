@@ -1,0 +1,15 @@
+{
+    "name": "dev-approuter",
+    "workspaces": [
+        "/packages/*"
+    ],
+    "scripts": {
+        "start-approuter": "npm run dev -w approuter",
+        "start-service1": "npm run start-server1 -w bookshop-destination",
+        "start-service2": "npm run start-server2 -w bookshop-destination"
+    },
+    "sapux": [
+        "packages/ui-listofbooks"
+    ],
+    "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
+}

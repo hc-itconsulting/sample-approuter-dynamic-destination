@@ -1,0 +1,14 @@
+{
+    "destinations": [
+        {
+            "name": "cap-destination-1",
+            "url": "http://localhost:4004",
+            "forwardAuthToken": true
+        },
+        {
+            "name": "cap-destination-2",
+            "url": "http://localhost:4005",
+            "forwardAuthToken": true
+        }
+    ]
+}
